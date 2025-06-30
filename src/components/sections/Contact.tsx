@@ -144,7 +144,7 @@ export const Contact = () => {
                 
                 <Button 
                   type="submit" 
-                  className="w-full bg-blue-600 hover:bg-blue-700"
+                  className="w-full bg-amber-600 hover:bg-amber-700"
                   disabled={isSubmitting}
                 >
                   {isSubmitting ? 'Sending...' : t('contact.form.submit')}
